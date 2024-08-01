@@ -16,7 +16,7 @@ app.use(express.json());
 
 app.use('/', Productrouter);
 app.use("/api/user",userRouter);
-app.use("/api/cart", cartRouter);
+app.use('/api/cart',cartRouter);
 
 app.listen(5000, () => {
   console.log("server is running ");
